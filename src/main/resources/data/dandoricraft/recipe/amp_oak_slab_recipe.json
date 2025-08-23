@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dandoricraft:amp_oak_planks"
+    }
+  },
+  "pattern": [
+    "  ",
+    "  ",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "id": "dandoricraft:amp_oak_slab"
+  }
+}

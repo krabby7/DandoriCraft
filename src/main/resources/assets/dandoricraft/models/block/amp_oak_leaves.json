@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "dandoricraft:block/amp_oak_leaves"
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.male_sheargrub",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 5, 8], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "mand1",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0.75, -6.5], "size": [1, 2.5, 4.5], "pivot": [0, 0, 0], "rotation": [0, -12.5, 0], "uv": [22, 17]}
+					]
+				},
+				{
+					"name": "mand2",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [2, 0.75, -6.5], "size": [1, 2.5, 4.5], "pivot": [0, 0, 0], "rotation": [0, 12.5, 0], "uv": [22, 26]}
+					]
+				}
+			]
+		}
+	]
+}

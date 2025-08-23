@@ -1,0 +1,30 @@
+{
+  "parent": "dandoricraft:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "Dandori Issue"
+    },
+    "description": {
+      "text": "I find your lack of Dandori disturbing..."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

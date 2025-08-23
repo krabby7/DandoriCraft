@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "dandoricraft:sparklium_composter"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "dandoricraft:sparklium_composter",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "level": "8"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dandoricraft:sparklium"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dandoricraft:blocks/sparklium_composter"
+}

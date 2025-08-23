@@ -1,0 +1,37 @@
+{
+  "parent": "dandoricraft:sparklium",
+  "display": {
+    "icon": {
+      "id": "dandoricraft:sparksteel_ingot"
+    },
+    "title": {
+      "text": "Energized Alloy"
+    },
+    "description": {
+      "text": "Obtain some Sparksteel"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dandoricraft:sparksteel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

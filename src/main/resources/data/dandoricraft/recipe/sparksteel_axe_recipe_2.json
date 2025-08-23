@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dandoricraft:sparksteel_ingot"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " BB",
+    " XB ",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dandoricraft:sparksteel_axe"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "dandoricraft:red_ten_pellet"
+    },
+    "title": {
+      "text": "DandoriCraft"
+    },
+    "description": {
+      "text": "Welcome to DandoriCraft!"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/dirt.png"
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

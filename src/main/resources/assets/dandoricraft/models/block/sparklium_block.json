@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dandoricraft:block/sparklium_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "dandoricraft:block/amp_oak_door_bottom",
+    "top": "dandoricraft:block/amp_oak_door_top"
+  }
+}

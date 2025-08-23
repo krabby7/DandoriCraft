@@ -1,0 +1,114 @@
+{
+
+  "item.dandoricraft.red_pikmin_spawn_egg": "Red Pikmin Spawn Egg",
+  "entity.dandoricraft.red_pikmin": "Red Pikmin",
+
+  "item.dandoricraft.dwarf_bulborb_spawn_egg": "Dwarf Bulborb Spawn Egg",
+  "item.dandoricraft.raw_bulborb_chop": "Raw Bulborb Chop",
+  "item.dandoricraft.cooked_bulborb_chop": "Cooked Bulborb Chop",
+  "item.dandoricraft.bulborb_hide": "Bulborb Hide",
+  "entity.dandoricraft.dwarf_bulborb": "Dwarf Bulborb",
+
+  "item.dandoricraft.bulborb_spawn_egg": "Bulborb Spawn Egg",
+  "entity.dandoricraft.bulborb": "Bulborb",
+
+  "entity.dandoricraft.water_dumple": "Water Dumple",
+  "item.dandoricraft.water_dumple_spawn_egg": "Water Dumple Spawn Egg",
+
+  "entity.dandoricraft.fiery_blowhog": "Fiery Blowhog",
+  "item.dandoricraft.fiery_blowhog_spawn_egg": "Fiery Blowhog Spawn Egg",
+
+  "entity.dandoricraft.female_sheargrub": "Female Sheargrub",
+  "item.dandoricraft.female_sheargrub_spawn_egg": "Female Sheargrub Spawn Egg",
+  "item.dandoricraft.female_sheargrub": "Female Sheargrub",
+  "item.dandoricraft.cooked_female_sheargrub": "Cooked Female Sheargrub",
+
+
+  "entity.dandoricraft.male_sheargrub": "Male Sheargrub",
+  "item.dandoricraft.male_sheargrub_spawn_egg": "Male Sheargrub Spawn Egg",
+  "item.dandoricraft.male_sheargrub": "Male Sheargrub",
+  "item.dandoricraft.cooked_male_sheargrub": "Cooked Male Sheargrub",
+
+  "entity.dandoricraft.shearflea": "Shearflea",
+  "item.dandoricraft.shearflea_spawn_egg": "Shearflea Spawn Egg",
+
+  "entity.dandoricraft.skitterleaf": "Skitterleaf",
+  "item.dandoricraft.skitterleaf_spawn_egg": "Skitterleaf Spawn Egg",
+  "item.dandoricraft.skitterleaf_foilage": "Skitterleaf Foilage",
+
+  "entity.dandoricraft.desiccated_skitterleaf": "Desiccated Skitterleaf",
+  "item.dandoricraft.desiccated_skitterleaf_spawn_egg": "Desiccated Skitterleaf Spawn Egg",
+  "item.dandoricraft.desiccated_skitterleaf_foilage": "Desiccated Skitterleaf Foilage",
+
+  "entity.dandoricraft.white_spectralid": "White Spectralid",
+  "item.dandoricraft.white_spectralid_spawn_egg": "White Spectralid Spawn Egg",
+
+
+
+  "item.dandoricraft.sparklium": "Sparklium",
+  "item.dandoricraft.ampcorn": "Ampcorn",
+  "item.dandoricraft.sparksteel_ingot": "Sparksteel Ingot",
+  "item.dandoricraft.sparksteel_nugget": "Sparksteel Nugget",
+  "block.dandoricraft.sparksteel_block": "Sparksteel Block",
+  "block.dandoricraft.sparklium_composter": "Sparklium Composter",
+  "item.dandoricraft.sparksteel_sword": "Sparksteel Sword",
+  "item.dandoricraft.sparksteel_pickaxe": "Sparksteel Pickaxe",
+  "item.dandoricraft.sparksteel_axe": "Sparksteel Axe",
+  "item.dandoricraft.sparksteel_shovel": "Sparksteel Shovel",
+  "item.dandoricraft.sparksteel_hoe": "Sparksteel Hoe",
+  "item.dandoricraft.sparksteel_helmet": "Sparksteel Helmet",
+  "item.dandoricraft.sparksteel_chestplate": "Sparksteel Chestplate",
+  "item.dandoricraft.sparksteel_leggings": "Sparksteel Leggings",
+  "item.dandoricraft.sparksteel_boots": "Sparksteel Boots",
+  "block.dandoricraft.sparklium_block": "Sparklium Block",
+  "trim_material.dandoricraft.sparksteel": "Sparksteel Material",
+
+
+
+  "item.dandoricraft.dandorium_ingot": "Dandorium Ingot",
+
+  "block.dandoricraft.amp_oak_planks": "Amp Oak Planks",
+  "block.dandoricraft.amp_oak_log": "Amp Oak Log",
+  "block.dandoricraft.stripped_amp_oak_log": "Stripped Amp Oak Log",
+  "block.dandoricraft.amp_oak_trapdoor": "Amp Oak Trapdoor",
+  "block.dandoricraft.amp_oak_door": "Amp Oak Door",
+  "block.dandoricraft.amp_oak_slab": "Amp Oak Slab",
+  "block.dandoricraft.amp_oak_leaves": "Amp Oak Leaves",
+  "block.dandoricraft.amp_oak_sapling": "Amp Oak Sapling",
+
+
+
+
+
+
+
+
+
+
+  "item.dandoricraft.raw_material": "Raw Material",
+  "block.dandoricraft.raw_material_ore": "Raw Material Ore",
+  "block.dandoricraft.raw_material_deepslate_ore": "Raw Material Deepslate Ore",
+
+
+
+
+
+  "item.dandoricraft.bulborb_hide": "Bulborb Hide",
+  "item.dandoricraft.bulborb_helmet": "Bulborb Helmet",
+  "item.dandoricraft.bulborb_chestplate": "Bulborb Chestplate",
+  "item.dandoricraft.bulborb_leggings": "Bulborb Leggings",
+  "item.dandoricraft.bulborb_boots": "Bulborb Boots",
+
+
+
+  "item.dandoricraft.red_one_pellet": "Red One Pellet",
+  "item.dandoricraft.red_five_pellet": "Red Five Pellet",
+  "item.dandoricraft.red_ten_pellet": "Red Ten Pellet",
+
+
+
+
+
+
+  "itemGroup.dandoricraft.dandoricraft_tab": "DandoriCraft"
+}

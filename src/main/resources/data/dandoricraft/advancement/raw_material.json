@@ -1,0 +1,37 @@
+{
+  "parent": "dandoricraft:root",
+  "display": {
+    "icon": {
+      "id": "dandoricraft:raw_material"
+    },
+    "title": {
+      "text": "Jack of All Minerals"
+    },
+    "description": {
+      "text": "Obtain some Raw Material"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dandoricraft:raw_material"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

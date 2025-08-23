@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dandoricraft:sparklium"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dandoricraft:sparklium_block"
+  }
+}

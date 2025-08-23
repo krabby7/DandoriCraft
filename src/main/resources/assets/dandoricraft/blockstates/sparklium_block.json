@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "dandoricraft:block/sparklium_block"
+      },
+      {
+        "model": "dandoricraft:block/sparklium_block",
+        "y": 90
+      },
+      {
+        "model": "dandoricraft:block/sparklium_block",
+        "y": 180
+      },
+      {
+        "model": "dandoricraft:block/sparklium_block",
+        "y": 270
+      }
+    ]
+  }
+}

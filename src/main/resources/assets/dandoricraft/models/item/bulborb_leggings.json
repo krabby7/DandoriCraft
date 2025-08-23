@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dandoricraft:item/bulborb_leggings"
+  }
+
+}

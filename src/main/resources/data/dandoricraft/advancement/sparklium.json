@@ -1,0 +1,37 @@
+{
+  "parent": "dandoricraft:root",
+  "display": {
+    "icon": {
+      "id": "dandoricraft:sparklium"
+    },
+    "title": {
+      "text": "Little Spark of Power"
+    },
+    "description": {
+      "text": "Obtain some Sparklium"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dandoricraft:sparklium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

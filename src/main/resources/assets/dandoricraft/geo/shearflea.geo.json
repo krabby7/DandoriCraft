@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.female_sheargrub",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Mouth",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 4, -6], "size": [1, 1, 3], "uv": [24, 28]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 2, -3], "size": [6, 5, 8], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "leg1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 0.5, -1], "size": [1, 2.25, 1], "pivot": [0, 0, 0], "rotation": [27.5, 0, 0], "uv": [28, 0]}
+					]
+				},
+				{
+					"name": "leg2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0.5, -1], "size": [1, 2.25, 1], "pivot": [0, 0, 0], "rotation": [27.5, 0, 0], "uv": [28, 0]}
+					]
+				},
+				{
+					"name": "leg3",
+					"pivot": [0, 0, 2],
+					"cubes": [
+						{"origin": [1, 0.5, 2], "size": [1, 2.25, 1], "pivot": [0, 0, 2], "rotation": [-27.5, 0, 0], "uv": [28, 0]}
+					]
+				},
+				{
+					"name": "leg4",
+					"pivot": [0, 0, 2],
+					"cubes": [
+						{"origin": [-2, 0.5, 2], "size": [1, 2.25, 1], "pivot": [0, 0, 2], "rotation": [-27.5, 0, 0], "uv": [28, 0]}
+					]
+				}
+			]
+		}
+	]
+}

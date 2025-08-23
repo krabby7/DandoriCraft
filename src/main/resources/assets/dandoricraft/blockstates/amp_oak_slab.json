@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dandoricraft:block/amp_oak_slab"
+    },
+    "type=double": {
+      "model": "dandoricraft:block/amp_oak_planks"
+    },
+    "type=top": {
+      "model": "dandoricraft:block/amp_oak_slab_top"
+    }
+  }
+}

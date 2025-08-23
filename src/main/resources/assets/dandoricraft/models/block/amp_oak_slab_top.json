@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dandoricraft:block/amp_oak_planks",
+    "side": "dandoricraft:block/amp_oak_planks",
+    "top": "dandoricraft:block/amp_oak_planks"
+  }
+}
