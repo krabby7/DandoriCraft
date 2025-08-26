@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.dandoricraft.dandoricraft_tab"))
                     .icon(() -> new ItemStack(ModItems.RED_TEN_PELLET.get()))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.TEMPLATE_PIKMIN_SPAWN_EGG);
                         pOutput.accept(ModItems.RED_PIKMIN_SPAWN_EGG);
 
                         pOutput.accept(ModItems.RED_ONE_PELLET);
@@ -64,6 +65,7 @@ public class ModCreativeModeTabs {
 
 
                         pOutput.accept(ModItems.RAW_MATERIAL);
+                        pOutput.accept(ModBlocks.RAW_MATERIAL_BLOCK);
                         pOutput.accept(ModBlocks.RAW_MATERIAL_ORE);
                         pOutput.accept(ModBlocks.RAW_MATERIAL_DEEPSLATE_ORE);
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dandoricraft:raw_material_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "dandoricraft:raw_material"
+  }
+}

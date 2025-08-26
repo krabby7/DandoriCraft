@@ -1,5 +1,8 @@
 {
 
+  "tooltip.dandoricraft.template_pikmin": "Please note that Template Pikmin are for testing purposes and other internal reasons, and are not intended for regular survival gameplay.",
+  "item.dandoricraft.template_pikmin_spawn_egg": "Template Pikmin Spawn Egg",
+  "entity.dandoricraft.template_pikmin": "Template Pikmin",
   "item.dandoricraft.red_pikmin_spawn_egg": "Red Pikmin Spawn Egg",
   "entity.dandoricraft.red_pikmin": "Red Pikmin",
 
@@ -23,7 +26,6 @@
   "item.dandoricraft.female_sheargrub": "Female Sheargrub",
   "item.dandoricraft.cooked_female_sheargrub": "Cooked Female Sheargrub",
 
-
   "entity.dandoricraft.male_sheargrub": "Male Sheargrub",
   "item.dandoricraft.male_sheargrub_spawn_egg": "Male Sheargrub Spawn Egg",
   "item.dandoricraft.male_sheargrub": "Male Sheargrub",
@@ -42,8 +44,6 @@
 
   "entity.dandoricraft.white_spectralid": "White Spectralid",
   "item.dandoricraft.white_spectralid_spawn_egg": "White Spectralid Spawn Egg",
-
-
 
   "item.dandoricraft.sparklium": "Sparklium",
   "item.dandoricraft.ampcorn": "Ampcorn",
@@ -76,22 +76,10 @@
   "block.dandoricraft.amp_oak_leaves": "Amp Oak Leaves",
   "block.dandoricraft.amp_oak_sapling": "Amp Oak Sapling",
 
-
-
-
-
-
-
-
-
-
   "item.dandoricraft.raw_material": "Raw Material",
+  "block.dandoricraft.raw_material_block": "Raw Material Block",
   "block.dandoricraft.raw_material_ore": "Raw Material Ore",
   "block.dandoricraft.raw_material_deepslate_ore": "Raw Material Deepslate Ore",
-
-
-
-
 
   "item.dandoricraft.bulborb_hide": "Bulborb Hide",
   "item.dandoricraft.bulborb_helmet": "Bulborb Helmet",
@@ -99,16 +87,18 @@
   "item.dandoricraft.bulborb_leggings": "Bulborb Leggings",
   "item.dandoricraft.bulborb_boots": "Bulborb Boots",
 
-
-
   "item.dandoricraft.red_one_pellet": "Red One Pellet",
   "item.dandoricraft.red_five_pellet": "Red Five Pellet",
   "item.dandoricraft.red_ten_pellet": "Red Ten Pellet",
 
+  "itemGroup.dandoricraft.dandoricraft_tab": "DandoriCraft",
 
+  "sounds.dandoricraft.pikmin_cry": "Pikmin hurts",
+  "sounds.dandoricraft.pikmin_death": "Pikmin dies",
+  "sounds.dandoricraft.pikmin_hmm": "Pikmin hmm?",
+  "sounds.dandoricraft.pikmin_moo": "Pikmin moo",
+  "sounds.dandoricraft.pikmin_pikmin": "Pikmin saying pikmin",
+  "sounds.dandoricraft.pikmin_waa": "Pikmin waa",
+  "sounds.dandoricraft.bulborb_death": "Bulborb dies"
 
-
-
-
-  "itemGroup.dandoricraft.dandoricraft_tab": "DandoriCraft"
 }

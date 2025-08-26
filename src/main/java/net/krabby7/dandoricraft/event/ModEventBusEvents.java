@@ -20,6 +20,8 @@ public class ModEventBusEvents {
     public static void registerAttributes(EntityAttributeCreationEvent event) {
 
         event.put(ModEntities.RED_PIKMIN_ENTITY.get(), RedPikminEntity.createAttributes().build());
+        event.put(ModEntities.TEMPLATE_PIKMIN_ENTITY.get(), RedPikminEntity.createAttributes().build());
+
 
         event.put(ModEntities.DWARF_BULBORB_ENTITY.get(), DwarfBulborbEntity.createAttributes().build());
         event.put(ModEntities.BULBORB_ENTITY.get(), BulborbEntity.createAttributes().build());

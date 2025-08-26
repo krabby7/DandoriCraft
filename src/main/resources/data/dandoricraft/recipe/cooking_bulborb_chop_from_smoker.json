@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": {
-    "item": "dandoricraft:raw_bulborb_chop"
+  "ingredient": "dandoricraft:raw_bulborb_chop",
+  "result":{
+    "id": "dandoricraft:cooked_bulborb_chop"
   },
-  "result": "dandoricraft:cooked_bulborb_chop"
+  "cookingtime": 100,
+  "experience": 0.35
 }

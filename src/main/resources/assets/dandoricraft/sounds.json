@@ -1,0 +1,44 @@
+{
+  "pikmin_cry": {
+    "subtitle": "sounds.dandoricraft.pikmin_cry",
+    "sounds": [
+      "dandoricraft:pikmin_cry"
+    ]
+  },
+  "pikmin_death": {
+    "subtitle": "sounds.dandoricraft.pikmin_death",
+    "sounds": [
+      "dandoricraft:pikmin_death"
+    ]
+  },
+  "pikmin_hmm": {
+    "subtitle": "sounds.dandoricraft.pikmin_hmm",
+    "sounds": [
+      "dandoricraft:pikmin_hmm"
+    ]
+  },
+  "pikmin_moo": {
+    "subtitle": "sounds.dandoricraft.pikmin_moo",
+    "sounds": [
+      "dandoricraft:pikmin_moo"
+    ]
+  },
+  "pikmin_waa": {
+    "subtitle": "sounds.dandoricraft.pikmin_waa",
+    "sounds": [
+      "dandoricraft:pikmin_waa"
+    ]
+  },
+  "pikmin_pikmin": {
+    "subtitle": "sounds.dandoricraft.pikmin_pikmin",
+    "sounds": [
+      "dandoricraft:pikmin_pikmin"
+    ]
+  },
+  "bulborb_death": {
+    "subtitle": "sounds.dandoricraft.bulborb_death",
+    "sounds": [
+      "dandoricraft:bulborb_death"
+    ]
+  }
+}

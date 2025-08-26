@@ -3,8 +3,8 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.35,
-  "ingredient": {
-    "item": "dandoricraft:raw_bulborb_chop"
-  },
-  "result": "dandoricraft:cooked_bulborb_chop"
+  "ingredient": "dandoricraft:raw_bulborb_chop",
+  "result":{
+    "id": "dandoricraft:cooked_bulborb_chop"
+  }
 }

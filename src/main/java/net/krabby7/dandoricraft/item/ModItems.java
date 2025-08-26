@@ -100,6 +100,17 @@ public class ModItems {
             () -> new DeferredSpawnEggItem(ModEntities.WHITE_SPECTRALID_ENTITY, 15658462, 1184274,
                     new Item.Properties()));
 
+
+    public static final DeferredItem<Item> TEMPLATE_PIKMIN_SPAWN_EGG = ITEMS.register("template_pikmin_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.TEMPLATE_PIKMIN_ENTITY, 0x7d7d7d, 4194082,
+                    new Item.Properties()){
+            @Override
+            public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                pTooltipComponents.add(Component.translatable("tooltip.dandoricraft.template_pikmin"));
+                super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+            }
+    });
+
     public static final DeferredItem<Item> RED_PIKMIN_SPAWN_EGG = ITEMS.register("red_pikmin_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.RED_PIKMIN_ENTITY, 16121856, 4194082,
                     new Item.Properties()));

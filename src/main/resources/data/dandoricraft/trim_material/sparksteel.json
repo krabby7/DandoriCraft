@@ -1,9 +1,0 @@
-{
-  "asset_name": "sparksteel",
-  "description": {
-    "color": "#fdf58a",
-    "translate": "trim_material.dandoricraft.sparksteel"
-  },
-  "ingredient": "dandoricraft:sparksteel_ingot",
-  "item_model_index": 0.6
-}

@@ -6,6 +6,7 @@ import net.krabby7.dandoricraft.entity.client.*;
 import net.krabby7.dandoricraft.item.ModArmorMaterials;
 import net.krabby7.dandoricraft.item.ModCreativeModeTabs;
 import net.krabby7.dandoricraft.item.ModItems;
+import net.krabby7.dandoricraft.sound.ModSounds;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.FoliageColor;
@@ -50,6 +51,8 @@ public class DandoriCraft
         ModEntities.register(modEventBus);
         ModArmorMaterials.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModSounds.register(modEventBus);
+
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -102,6 +105,8 @@ public class DandoriCraft
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
 
             EntityRenderers.register(ModEntities.RED_PIKMIN_ENTITY.get(), RedPikminRenderer::new);
+            EntityRenderers.register(ModEntities.TEMPLATE_PIKMIN_ENTITY.get(), TemplatePikminRenderer::new);
+
 
             EntityRenderers.register(ModEntities.DWARF_BULBORB_ENTITY.get(), DwarfBulborbRenderer::new);
             EntityRenderers.register(ModEntities.BULBORB_ENTITY.get(), BulborbRenderer::new);

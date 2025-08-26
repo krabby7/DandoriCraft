@@ -17,6 +17,10 @@ public class ModEntities {
 
     //pikmin
 
+    public static final Supplier<EntityType<TemplatePikminEntity>> TEMPLATE_PIKMIN_ENTITY =
+            ENTITY_TYPES.register("template_pikmin", () -> EntityType.Builder.of(TemplatePikminEntity::new, MobCategory.CREATURE)
+                    .sized(1f, 1f).build("template_pikmin"));
+
     public static final Supplier<EntityType<RedPikminEntity>> RED_PIKMIN_ENTITY =
             ENTITY_TYPES.register("red_pikmin", () -> EntityType.Builder.of(RedPikminEntity::new, MobCategory.CREATURE)
                     .sized(1f, 1f).build("red_pikmin"));
@@ -29,7 +33,7 @@ public class ModEntities {
 
     public static final Supplier<EntityType<BulborbEntity>> BULBORB_ENTITY =
             ENTITY_TYPES.register("bulborb", () -> EntityType.Builder.of(BulborbEntity::new, MobCategory.CREATURE)
-                    .sized(1f, 1f).build("bulborb"));
+                    .sized(2.5f, 2.5f).build("bulborb"));
 
     public static final Supplier<EntityType<FemaleSheargrubEntity>> FEMALE_SHEARGRUB_ENTITY =
             ENTITY_TYPES.register("female_sheargrub", () -> EntityType.Builder.of(FemaleSheargrubEntity::new, MobCategory.CREATURE)

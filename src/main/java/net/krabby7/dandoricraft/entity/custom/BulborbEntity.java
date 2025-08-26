@@ -1,6 +1,8 @@
 package net.krabby7.dandoricraft.entity.custom;
 
+import net.krabby7.dandoricraft.sound.ModSounds;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -54,7 +56,7 @@ public class BulborbEntity extends Animal implements GeoEntity {
         this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 
         this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
-        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, RedPikminEntity.class, true));
+        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, TemplatePikminEntity.class, true));
         this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, IronGolem.class, true));
     }
 
@@ -82,5 +84,10 @@ public class BulborbEntity extends Animal implements GeoEntity {
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return cache;
+    }
+
+    @Override
+    protected @Nullable SoundEvent getDeathSound() {
+        return ModSounds.BULBORB_DEATH.get();
     }
 }

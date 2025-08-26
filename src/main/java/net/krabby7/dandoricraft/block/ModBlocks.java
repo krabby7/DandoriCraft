@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SPARKSTEEL_BLOCK = registerBlock("sparksteel_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> RAW_MATERIAL_BLOCK = registerBlock("raw_material_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
     public static final DeferredBlock<Block> SPARKLIUM_COMPOSTER = registerBlock("sparklium_composter",
             () -> new SparkliumComposterBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(0.6F).sound(SoundType.WOOD).ignitedByLava()));
 
